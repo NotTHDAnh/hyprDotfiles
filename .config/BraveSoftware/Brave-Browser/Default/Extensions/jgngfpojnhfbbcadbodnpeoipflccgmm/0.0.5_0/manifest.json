@@ -1,0 +1,34 @@
+{
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "assets/index.ts-loader-a708a837.js" ],
+      "matches": [ "https://www.coursera.org/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "This extension swiftly provides submission links, expediting grading by inviting mentors or peers for evaluation.",
+   "host_permissions": [ "https://www.coursera.org/*" ],
+   "icons": {
+      "128": "img/logo.png",
+      "16": "img/logo.png",
+      "32": "img/logo.png",
+      "48": "img/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgqx0fbIvH9Rma6njo/9cVE1GeZ7uvrRYcnDJHM4cdfOWPp3U48jn4v5o1pq/NOkW0Vnf9xdmDy5JBMa4jvy1lTrST4pyU3t6dKSGvAL4xmmldE7G2McGTYPEe6Ub+52Il+uV60vB9Co/a3hjepvCSodDFO497W7R9gG8gPGDchZzS5hJq1jaT8pPr/lt+QHGNsy94JGbRinYnj5y7F/Osp2KCKiqFzQTbu3X8RiGmAYTtLe3zIGK044Yyv3Lg6oblJCE+pGhPFN2BSWLNnJKFFmEvzLHs0RoYTW0+4uTpi+Aqwc6Z7ftL/rH9YqXmLdo2lWfmG4O9CslRIUQOegrYQIDAQAB",
+   "manifest_version": 3,
+   "name": "Coursera Get Shareable Link",
+   "permissions": [ "https://www.coursera.org/*", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.5",
+   "web_accessible_resources": [ {
+      "matches": [  ],
+      "resources": [ "img/*.png" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "https://www.coursera.org/*" ],
+      "resources": [ "assets/chunk-329e5386.js" ],
+      "use_dynamic_url": true
+   } ]
+}

@@ -1,0 +1,38 @@
+{
+   "action": {
+      "default_icon": "/image/icon/fab192.png",
+      "default_popup": "/ng/popup/comp/popup/popup.html",
+      "default_title": "ECPRC"
+   },
+   "author": "Webvoom",
+   "background": {
+      "service_worker": "/background/background.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "/js_content/enable_copy.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Enable Copy Paste & Right Click on websites that have disabled Copy Paste & Right Click.",
+   "homepage_url": "https://webvoom.com",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "16": "/image/icon/fab16.png",
+      "180": "/image/icon/fab180.png",
+      "192": "/image/icon/fab192.png",
+      "32": "/image/icon/fab32.png",
+      "512": "/image/icon/fab512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAosEeIogeiaIYDGn89+yzO29fPYMbPWRKnptXl7nNcBlQbF3DsAw2IqoYCprT0tCiIGW9aH+0rQmakDyL4mq6RNjrZuocfeAGc0BKazWmCE+PH9yupg3Tjs6FTDHHqggEiDoPnvQ600DgTQMAEJQjDZ72m+dYkmARP6ZieOAYYUHqx5NW3Up42oUmjtKWbC/U1y0nYjOLNGdr4Y7wnKWV3T7fzeNXu1mr6w18oUlUA91/Y6rAwI9+fYwSGjIfFu8gvvmbHAVhoZ8gL7+klAYn6uD6t6xtBsLWRoSdjEX5Pu8WCwisdtTbmSVEfAzIZuzN86gUB2Tw/IvHj4c5Rxi7QQIDAQAB",
+   "manifest_version": 3,
+   "name": "Enable Copy Paste & Right Click",
+   "permissions": [ "storage" ],
+   "short_name": "ECPRC",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0",
+   "web_accessible_resources": [ {
+      "extension_ids": [  ],
+      "resources": [ "/ng/content/**/*.html", "/css_content/**/*.css" ]
+   } ]
+}

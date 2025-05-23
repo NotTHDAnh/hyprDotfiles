@@ -1,0 +1,286 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <script type="text/javascript" src="script_options_pasteit.js"></script>
+
+  <link href="styles_pasteit_options.css" rel="stylesheet" type="text/css" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Paste It Options</title>
+</head>
+
+<body>
+  <div class="header_content">
+    <div class="title_content">
+      <div class="title_image">
+        <img src="paste_icon_128.png" alt="title" width="48" />
+      </div>
+      <div class="title_text">Paste It</div>
+    </div>
+  </div>
+
+  <div class="container_options">
+
+    <!--*** OPTIONS ***-->
+
+    <div id="options">
+      <h2>Set Paste Text</h2>
+
+      <div class="options_box">
+        Paste It allows you to quickly paste any text snippet, such as your email address.
+        <br /><br />
+
+        Enter the text that you would like to paste below:
+
+        <br /><br />
+
+        <textarea id="pasteText" placeholder="Enter paste text here" rows="4" cols="80"></textarea>
+      </div>
+
+      <h2>How to Paste</h2>
+
+      <div class="options_box">
+        You can paste your text into input fields in three different ways:
+
+        <h4>Toolbar</h4>
+        <ul>
+          <li style="margin-bottom: 10px">
+            <input id="checkboxToolbar" type="checkbox" disabled="disabled" />
+            <label for="checkboxToolbar">
+              Click the Paste It toolbar button (right-click to <span class="localize">move</span>).
+            </label>
+          </li>
+          <li style="margin-left: 20px; margin-bottom: 15px">
+            <input id="checkboxAltToolbar" type="checkbox" />
+            <label id="checkboxAltToolbarLabel" for="checkboxAltToolbar">
+              Select Alternate Paste Text from toolbar popup.<br />
+              <sub>Tip - Hold down <span class="controlKey"></span> with the popup open to copy to clipboard.</sub>
+            </label>
+          </li>
+        </ul>
+        <h4>Context Menu</h4>
+        <ul>
+          <li style="margin-bottom: 10px">
+            <input id="checkboxContext" type="checkbox" />
+            <label for="checkboxContext">
+              Right-click to paste from the context menu.
+            </label>
+          </li>
+          <li style="margin-left: 20px; margin-bottom: 15px">
+            <input id="checkboxAltContext" type="checkbox" />
+            <label id="checkboxAltContextLabel" for="checkboxAltContext">
+              Select Alternate Paste Text from context menu flyout.
+            </label>
+          </li>
+        </ul>
+        <h4>Keyboard</h4>
+        <ul>
+          <li style="margin-bottom: 10px">
+            <input id="checkboxKeyboard" type="checkbox" />
+            <label for="checkboxKeyboard"><span id="shortcutPrimary">
+                Use a keyboard shortcut</span>
+            </label> (set at <b class="localize shortcuts">shortcuts</b>).
+          </li>
+        </ul>
+      </div>
+
+      <h2>Alternate Paste Text</h2>
+
+      <div class="options_box" id="alt-enabled">
+        Alternate Paste Text can be assigned for up to 15 additional text snippets.
+
+        <br /><br />
+
+        Keyboard shortcuts can be set at
+        <b class="localize shortcuts">shortcuts</b>.
+
+        <br /><br />
+
+        <hr />
+
+        <br />
+
+        <label for="altText1">
+          Alternate Text 1: <span id="shortcutAlt"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer1"></div>
+
+        <br />
+
+        <label for="altText2">
+          Alternate Text 2: <span id="shortcutAlt2"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer2"></div>
+
+        <br />
+
+        <label for="altText3">
+          Alternate Text 3: <span id="shortcutAlt3"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer3"></div>
+
+        <br />
+
+        <label for="altText4">
+          Alternate Text 4: <span id="shortcutAlt4"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer4"></div>
+
+        <br />
+
+        <label for="altText5">
+          Alternate Text 5: <span id="shortcutAlt5"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer5"></div>
+
+        <br />
+
+        <label for="altText6">
+          Alternate Text 6: <span id="shortcutAlt6"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer6"></div>
+
+        <br />
+
+        <label for="altText7">
+          Alternate Text 7: <span id="shortcutAlt7"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer7"></div>
+
+        <br />
+
+        <label for="altText8">
+          Alternate Text 8: <span id="shortcutAlt8"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer8"></div>
+
+        <br />
+
+        <label for="altText9">
+          Alternate Text 9: <span id="shortcutAlt9"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer9"></div>
+
+        <br />
+
+        <label for="altText10">
+          Alternate Text 10: <span id="shortcutAlt10"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer10"></div>
+
+        <br />
+
+        <label for="altText11">
+          Alternate Text 11: <span id="shortcutAlt11"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer11"></div>
+
+        <br />
+
+        <label for="altText12">
+          Alternate Text 12: <span id="shortcutAlt12"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer12"></div>
+
+        <br />
+
+        <label for="altText13">
+          Alternate Text 13: <span id="shortcutAlt13"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer13"></div>
+
+        <br />
+
+        <label for="altText14">
+          Alternate Text 14: <span id="shortcutAlt14"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer14"></div>
+
+        <br />
+
+        <label for="altText15">
+          Alternate Text 15: <span id="shortcutAlt15"></span>
+        </label>
+
+        <br /><br />
+
+        <div id="altTextContainer15"></div>
+      </div>
+    </div>
+
+    <!--*** ABOUT ***-->
+
+    <div id="about">
+      <h2>About</h2>
+
+      <div class="options_box">
+        Paste It is developed with 💙 by
+        <a href="http://www.chromeshark.com" target="_blank" rel="noopener">ChromeShark Extensions</a> and will always
+        be free to use for everyone.
+
+        <br /><br />
+
+        We take a privacy-first approach and our extensions contain no advertising, tracking or paywalled features.
+
+        <br /><br />
+
+        If you enjoy using Paste It, please leave a review in the
+        <a href="https://chrome.google.com/webstore/detail/flkmjdnckhfkjkldogocpnmljokfnbln" target="_blank"
+          rel="noopener">Chrome Web Store</a>
+        or
+        <a href="https://microsoftedge.microsoft.com/addons/detail/ffbgmhbhbbabendiahiemfkiakgpmpdb" target="_blank"
+          rel="noopener">Edge Add-ons store</a>.
+
+        <br /><br />
+
+        <small>Version 8.0.1</small>
+      </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "aeabed80-b5cd-4e05-8095-5f8e0701db97",
+      "logo": {
+        "imageUrl": "48bd7985-7353-4140-9b68-8c8498e16257/83a848e0-fe1a-41f7-9150-013403fb5d63.png",
+        "destinationUrl": "https://anewdawn.vision/?mtm_campaign=BB_GOTVB",
+        "alt": "Cardano - The largest onchain vote in history is happening now. - A new dawn. A new cardano. - Get Involved",
+        "companyName": "Cardano"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "48bd7985-7353-4140-9b68-8c8498e16257/3299939f-1463-42e6-8a3b-a036ad57294b.jpg",
+          "creativeInstanceId": "3a47f990-c4ea-461f-acb2-bc46c4dacf23",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "aeabed80-b5cd-4e05-8095-5f8e0701db97",
+      "logo": {
+        "imageUrl": "48bd7985-7353-4140-9b68-8c8498e16257/83a848e0-fe1a-41f7-9150-013403fb5d63.png",
+        "destinationUrl": "https://anewdawn.vision/?mtm_campaign=BB_GOTVB",
+        "alt": "Cardano - The largest onchain vote in history is happening now. - A new dawn. A new cardano. - Get Involved",
+        "companyName": "Cardano"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "48bd7985-7353-4140-9b68-8c8498e16257/3299939f-1463-42e6-8a3b-a036ad57294b.jpg",
+          "creativeInstanceId": "3a47f990-c4ea-461f-acb2-bc46c4dacf23",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ]
+}

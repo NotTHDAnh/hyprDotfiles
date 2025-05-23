@@ -1,0 +1,6 @@
+2025/05/20-17:34:43.073 d2ad Reusing MANIFEST /home/dadx/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/05/20-17:34:43.073 d2ad Recovering log #71
+2025/05/20-17:34:43.073 d2ad Reusing old log /home/dadx/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000071.log 
+2025/05/20-17:35:53.528 d2ad Level-0 table #76: started
+2025/05/20-17:35:53.531 d2ad Level-0 table #76: 670896 bytes OK
+2025/05/20-17:35:53.532 d2ad Delete type=0 #71

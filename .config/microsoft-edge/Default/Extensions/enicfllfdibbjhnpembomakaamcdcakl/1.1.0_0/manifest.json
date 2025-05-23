@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_popup": "popup.html",
+      "default_title": "Catppuccin for Web File Explorer Icons"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "content-scripts/content.js" ],
+      "matches": [ "*://bitbucket.org/*", "*://codeberg.org/*", "*://gitea.com/*", "*://github.com/*", "*://gitlab.com/*", "*://tangled.sh/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Soothing pastel icons for web file explorers",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlNu7M4hMkK5TA+vmKNNdRrSfLqzE6iJx/K4TAf0Cq8YQNRaRav43srgfIIYcZK6AUuOzetFbaHJxIt81AyrfQpwnIF9MiS4j3NDaym0Eb0WazUDx8q0chlzQtxlaxfEHl4AimpRYOFy1tszrJ3XJlWX4ECwUdU18tp7a3+hRKphxchL8E56srYZ56RXFZDm52ERdwklmPh/BP79iTbzDG9MlVF/PkcTF8RzWq8w9mV+BxJz6gvSfAdcXs/7H047cxKT/mUsPPfogvYgIO/tmmehhTFLv8UkHJFsrYH3KJ4UfRlaVa8NQWmfadqP9CNAEwZXit2R3j1nSpA8GWDsIEwIDAQAB",
+   "manifest_version": 3,
+   "name": "Catppuccin for Web File Explorer Icons",
+   "optional_host_permissions": [ "*://*/*" ],
+   "permissions": [ "storage", "contextMenus", "activeTab", "scripting" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.1.0"
+}

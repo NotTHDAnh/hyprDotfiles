@@ -1,0 +1,24 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.png",
+         "16": "icon16.png",
+         "48": "icon48.png"
+      },
+      "default_popup": "index.html"
+   },
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "description": "A minimal newtab for Chrome",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzYbyUbeRWHCcmFA8G9tvBqjBO1fvbOAUhrEtoChaFjOZKsHWRr7RfSJKqmeFeBOzvhe64xM9zFtHirUhNyP37MkldXVrIi2UZmtU11WnaJZhUHpKoLxniMPEvKfiVwOBPoCATUcIek8G46Oc90k939WZNruy9AwmhJA+iBjPf2s0V6ryQpIeGBnI//aDn/woLLNnkOY3J/p4tFQT0gJsbK0gmp+Z0WxR7HBYLd9UqUcH3xRsrZMZewcYJkQBqNulUwb4cOm2ygfizM9DTRX91XycsXu5faMmK/LAp+0FQ7eNa8v+J6zi4x7JCpSUnWsRFmOiuNHbT0DNoIGCull+zQIDAQAB",
+   "manifest_version": 3,
+   "name": "Minim",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.4"
+}

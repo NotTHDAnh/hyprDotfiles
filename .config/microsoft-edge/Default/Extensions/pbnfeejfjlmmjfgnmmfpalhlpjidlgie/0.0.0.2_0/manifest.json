@@ -1,0 +1,33 @@
+{
+   "author": "Kajan M (https://www.kajanm.com/)",
+   "background": {
+      "service_worker": "service_worker.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "content/udemy-fresh-coupons-main-banner/import-App.js" ],
+      "matches": [ "https://www.udemy.com/courses/*", "https://www.udemy.com/" ]
+   }, {
+      "js": [ "content/udemy-course-details-page/import-App.js" ],
+      "matches": [ "https://www.udemy.com/course/*" ]
+   }, {
+      "js": [ "content/udemy-course-listing-page/import-App.js" ],
+      "matches": [ "https://www.udemy.com/courses/search/*", "https://www.udemy.com/topic/*" ]
+   } ],
+   "description": "Automatically find and apply discount coupon codes for Udemy courses",
+   "homepage_url": "https://github.com/KajanM/fresh-coupons",
+   "icons": {
+      "128": "assets/img/icon-128.png",
+      "48": "assets/img/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAncyU3OCFRwCDvDSqkolZjmBWUlroXmShmghs2BCllEce2Wbexa426ocw+a/2RA0tswgZgbKfxDxRwT5xcynkzo3w8y4W+60PxSPJfy7K81+g4zIGc/vbGkVI3X1vEpQusiMD4qfsIpSpipCuKzCewsxM6wn1nTxhlWt0/Z2d+Qx2pEpJC1Bu+207GQn9Z2E9AT6MmiY1gbbRg0nd88GTi7rVzDqe9jfGhH/AoLTF+H7//A7QP+YNj88yOYV0j/+uKZCqVeLAmtC/nLLZnVyrv2VPG9IPcASFpcv9KKoah0GXeGdqH7hxXehInky7fOuD7R2w8tYugSO9/z0l7Ug23wIDAQAB",
+   "manifest_version": 3,
+   "name": "Fresh Coupons",
+   "permissions": [ "storage", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.2",
+   "web_accessible_resources": [ {
+      "matches": [ "https://www.udemy.com/*" ],
+      "resources": [ "chunks/*-*.js", "content/udemy-fresh-coupons-main-banner/App.js", "content/udemy-course-details-page/App.js", "content/udemy-course-listing-page/App.js" ]
+   } ]
+}

@@ -1,0 +1,115 @@
+2025-05-19 13:41:26.870: [INFO] OnDoneLoading sync enabled: 0
+2025-05-19 13:41:27.153: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-05-19 13:42:19.085: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2025-05-19 13:42:19.087: [INFO] Primary account changed.
+2025-05-19 13:42:19.087: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2025-05-19 13:42:22.661: [INFO] VisibilityChanged: 0
+2025-05-19 13:42:22.769: [INFO] VisibilityChanged: 1
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.166: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.167: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.167: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.167: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.167: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.167: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.167: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.167: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:23.167: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-19 13:42:25.874: [INFO] Sync initialization duration: 6783ms
+2025-05-19 13:46:19.139: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 13:46:19.847: [INFO] Sync initialization duration: 86ms
+2025-05-19 14:04:27.245: [INFO] VisibilityChanged: 0
+2025-05-19 14:04:51.966: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 14:04:52.621: [INFO] Sync initialization duration: 116ms
+2025-05-19 14:04:55.827: [INFO] VisibilityChanged: 0
+2025-05-19 14:19:58.842: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 14:19:59.475: [INFO] Sync initialization duration: 98ms
+2025-05-19 14:24:21.935: [INFO] VisibilityChanged: 0
+2025-05-19 14:24:43.595: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 14:24:44.299: [INFO] Sync initialization duration: 118ms
+2025-05-19 14:24:48.001: [INFO] VisibilityChanged: 0
+2025-05-19 14:31:16.156: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 14:31:16.833: [INFO] Sync initialization duration: 116ms
+2025-05-19 14:36:47.500: [INFO] VisibilityChanged: 0
+2025-05-19 14:36:50.338: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 14:36:51.026: [INFO] Sync initialization duration: 138ms
+2025-05-19 14:36:54.180: [INFO] VisibilityChanged: 0
+2025-05-19 14:41:07.176: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 14:41:07.854: [INFO] Sync initialization duration: 100ms
+2025-05-19 14:52:37.654: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 14:52:38.346: [INFO] Sync initialization duration: 121ms
+2025-05-19 14:54:42.203: [INFO] VisibilityChanged: 0
+2025-05-19 14:54:45.460: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 14:54:46.101: [INFO] Sync initialization duration: 91ms
+2025-05-19 14:58:23.962: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 14:58:24.642: [INFO] Sync initialization duration: 110ms
+2025-05-19 15:40:28.210: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 15:40:28.865: [INFO] Sync initialization duration: 111ms
+2025-05-19 15:41:09.200: [INFO] VisibilityChanged: 0
+2025-05-19 19:12:40.786: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 19:12:41.521: [INFO] Sync initialization duration: 119ms
+2025-05-19 19:14:04.207: [INFO] VisibilityChanged: 0
+2025-05-19 19:27:22.152: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 19:27:22.932: [INFO] Sync initialization duration: 119ms
+2025-05-19 19:27:35.434: [INFO] VisibilityChanged: 0
+2025-05-19 19:41:38.475: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 19:41:39.245: [INFO] Sync initialization duration: 110ms
+2025-05-19 19:43:10.080: [INFO] VisibilityChanged: 0
+2025-05-19 19:43:13.541: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 19:43:14.167: [INFO] Sync initialization duration: 109ms
+2025-05-19 19:43:56.622: [INFO] VisibilityChanged: 0
+2025-05-19 22:15:08.473: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 22:15:09.625: [INFO] Sync initialization duration: 142ms
+2025-05-19 22:15:29.516: [INFO] VisibilityChanged: 0
+2025-05-19 22:20:59.101: [INFO] OnDoneLoading sync enabled: 1
+2025-05-19 22:21:00.751: [INFO] Sync initialization duration: 143ms
+2025-05-19 22:22:12.346: [INFO] VisibilityChanged: 0
+2025-05-20 06:49:29.869: [INFO] OnDoneLoading sync enabled: 1
+2025-05-20 06:49:30.294: [INFO] Sync initialization duration: 36ms
+2025-05-20 06:49:50.388: [INFO] VisibilityChanged: 0
+2025-05-20 00:42:46.331: [INFO] OnDoneLoading sync enabled: 1
+2025-05-20 00:42:47.192: [INFO] Sync initialization duration: 89ms
+2025-05-20 00:45:04.160: [INFO] BookmarkNodeAdded, ABU: 1
+2025-05-20 00:45:08.041: [INFO] Remove, DeletionOrigin: 4
+2025-05-20 00:45:08.041: [INFO] BookmarkNodeRemoved, Url: 1, IsFolder: 0, IsWorkspace: 0
+2025-05-20 00:46:01.857: [INFO] VisibilityChanged: 0
+2025-05-20 00:47:43.821: [INFO] OnDoneLoading sync enabled: 1
+2025-05-20 00:47:44.649: [INFO] Sync initialization duration: 115ms
+2025-05-20 00:47:46.158: [INFO] VisibilityChanged: 0
+2025-05-20 00:48:07.455: [INFO] VisibilityChanged: 0
+2025-05-20 06:04:51.844: [INFO] OnDoneLoading sync enabled: 1
+2025-05-20 06:04:52.615: [INFO] Sync initialization duration: 133ms
+2025-05-20 06:05:47.100: [INFO] VisibilityChanged: 0
+2025-05-20 10:16:01.578: [INFO] OnDoneLoading sync enabled: 1
+2025-05-20 10:16:02.196: [INFO] Sync initialization duration: 103ms
+2025-05-20 10:16:03.198: [INFO] VisibilityChanged: 0
+2025-05-20 10:16:04.141: [INFO] VisibilityChanged: 1
+2025-05-20 10:16:07.904: [INFO] VisibilityChanged: 0
+2025-05-20 10:20:18.093: [INFO] OnDoneLoading sync enabled: 1
+2025-05-20 10:20:18.354: [INFO] Sync initialization duration: 30ms
+2025-05-20 10:20:20.284: [INFO] VisibilityChanged: 0
+2025-05-20 10:25:23.554: [INFO] OnDoneLoading sync enabled: 1
+2025-05-20 10:25:23.814: [INFO] Sync initialization duration: 35ms
+2025-05-20 10:25:27.949: [INFO] VisibilityChanged: 0
+2025-05-20 10:32:34.791: [INFO] OnDoneLoading sync enabled: 1
+2025-05-20 10:32:35.060: [INFO] Sync initialization duration: 33ms
+2025-05-20 10:33:05.452: [INFO] VisibilityChanged: 0
+2025-05-20 10:34:41.110: [INFO] OnDoneLoading sync enabled: 1
+2025-05-20 10:34:41.350: [INFO] Sync initialization duration: 27ms
+2025-05-20 10:39:56.949: [INFO] VisibilityChanged: 0

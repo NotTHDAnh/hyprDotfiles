@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Control the playback speed of videos beyond standard limits.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5ueK5Ec+ocHAPTVUGLGKeIW1WUkEM7/stlzJXBR2WFEwRtTLqI9gUS+js0exUBt/CNzyuoq+cOiypYEIv0+O4kwDG9NgeKUB88agy8Z8sME2vkwxJX4/uYxVJ03+KkfbVAKc9SNl65Bi/PMmucMX+FsD4EFBz7dGaWJ9Jtsnp98snfFucpj3Ed5Mu3cRHfDPiPbS1ai7JAEZg1bkUdqj9g65wBneYNNd/LmNWHcW0FFqWZ2iSlcQCuYiASxQmK26Jqt1FwXliWAP2TSyFB8XlZee6a3bkfJGYb6pVLovk5+JqPsNJ8xWLOAMfWpnHSSN5GaL3xq7mG4sfBixOCE9QIDAQAB",
+   "manifest_version": 3,
+   "name": "Fast Forward Speed Control",
+   "permissions": [ "storage", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.60"
+}

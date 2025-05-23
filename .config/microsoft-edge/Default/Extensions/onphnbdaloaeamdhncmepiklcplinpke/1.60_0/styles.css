@@ -1,0 +1,27 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background: white;
+    font-family: sans-serif;
+}
+
+div:first-child {
+    margin-top: 0px;
+}
+
+div {
+    cursor: pointer;
+    text-align: center;
+    padding: 1px 3px;
+    font-size: 0.8em;
+    width: 50px;
+    height: 15px;
+    margin-top: 1px;
+    background: #cccccc;
+    user-select: none; /* Prevent text selection */
+}
+
+div:hover {
+    background: #aaaaaa;
+}

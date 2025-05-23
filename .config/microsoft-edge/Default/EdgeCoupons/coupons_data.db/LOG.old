@@ -1,0 +1,15 @@
+2025/05/20-17:32:36.762 cfad Reusing MANIFEST /home/dadx/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/05/20-17:32:36.762 cfad Recovering log #68
+2025/05/20-17:32:36.762 cfad Reusing old log /home/dadx/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000068.log 
+2025/05/20-17:32:39.733 cfad Level-0 table #72: started
+2025/05/20-17:32:39.735 cfad Level-0 table #72: 670896 bytes OK
+2025/05/20-17:32:39.736 cfad Delete type=0 #68
+2025/05/20-17:32:39.736 cfad Compacting 4@0 + 1@1 files
+2025/05/20-17:32:39.739 cfad Generated table #73@0: 5 keys, 671596 bytes
+2025/05/20-17:32:39.739 cfad Compacted 4@0 + 1@1 files => 671596 bytes
+2025/05/20-17:32:39.740 cfad compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/20-17:32:39.740 cfad Delete type=2 #60
+2025/05/20-17:32:39.740 cfad Delete type=2 #69
+2025/05/20-17:32:39.740 cfad Delete type=2 #66
+2025/05/20-17:32:39.740 cfad Delete type=2 #63
+2025/05/20-17:32:39.740 cfad Delete type=2 #72

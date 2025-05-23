@@ -1,0 +1,198 @@
+@import "frappe.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* ------ Set a Uniform Border Radius ------ */
+.modules-left,
+.modules-center,
+.modules-right,
+#cpu,
+#memory,
+#temperature,
+#pulseaudio,
+#power-profiles-daemon,
+#backlight,
+#custom-spotify,
+#custom-icon,
+#custom-updates,
+#language,
+#network,
+#battery,
+#battery#bat1,
+#tray,
+#idle_inhibitor,
+#custom-power,
+#custom-notification {
+  border-radius: 18px;
+}
+
+/* ------ Modules Left ------ */
+.modules-left {
+  background-color: @base;
+  padding-right: 10px;
+  padding-left: 17px;
+}
+
+/* ------ Modules Center ------ */
+.modules-center {
+  background-color: @base;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+/* ------ Modules Right ------ */
+.modules-right {
+  background-color: @base;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+/* ------ Window Title ------ */
+#window {
+  color: @text;
+  padding-right: 4px;
+}
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 0px solid #ffffff;
+  /* color: #FFFFFF; */
+  background: transparent;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+/* -----------------------------------------------------
+ * Workspaces 
+ * ----------------------------------------------------- */
+
+#workspaces button.empty {
+  color: @surface2;
+  font-family: JetBrainsMono Nerd Font;
+}
+
+#workspaces {
+  margin: 0px 1px 0px 1px;
+  padding: 0px 10px;
+  font-family: JetBrainsMono Nerd Font;
+}
+
+#workspaces button {
+  padding: 0px 3px;
+  margin: 4px 2px;
+  color: @yellow;
+  font-family: JetBrainsMono Nerd Font;
+}
+
+#workspaces button:hover {
+  opacity: 0.5;
+}
+
+/* ------ Backlight ------ */
+#backlight {
+  color: @sky;
+  background-color: @surface1;
+  padding: 2px 8px;
+  margin: 4px 2px;
+}
+
+#power-profiles-daemon{
+  color: @green;
+  background-color: @surface1;
+  padding: 2px 8px;
+  margin: 4px 2px;
+}
+
+#cpu {
+  color: @sky;
+  background-color: @surface1;
+  padding: 2px 8px;
+  margin: 4px 2px;
+}
+
+/* ------ Wireplumber ------ */
+#pulseaudio{
+  color: @peach;
+  background-color: @surface1;
+  padding: 2px 8px;
+  margin: 4px 2px;
+}
+
+/* ------ Language ------ */
+#language {
+  color: @flamingo;
+  background-color: @surface1;
+  padding: 2px 8px;
+  margin: 4px 2px;
+}
+
+/* ------ Network ------ */
+#network {
+  color: @mauve;
+  background-color: @surface1;
+  padding: 2px 8px;
+  margin: 4px 2px;
+}
+
+/* ------ Battery ------ */
+#battery {
+  color: @maroon;
+  background-color: @surface1;
+  padding: 2px 8px;
+  margin: 4px 2px;
+}
+
+/* ------ Clock ------ */
+#clock {
+  color: @text;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* ------ System Tray ------ */
+#tray {
+  background-color: @surface1;
+  padding: 2px 8px;
+  margin: 4px 2px;
+}
+
+/* ------ Custom Modules ------ */
+#custom-icon {
+  font-size: 14px;
+  color: @green;
+}
+
+#custom-power {
+  color: @red;
+  background-color: @surface1;
+  padding: 2px 9px;
+  margin: 4px 2px;
+  font-size: 12px;
+}
+
+#idle_inhibitor {
+  color: @green;
+  background-color: @surface1;
+  padding: 2px 9px;
+  margin: 4px 2px;
+  font-size: 12px;
+}
+
+#memory {
+  color: @green;
+  background-color: @surface1;
+  padding: 2px 9px;
+  margin: 4px 2px;
+  font-size: 13px;
+}
+
+tooltip {
+  background: @base;
+  border: 1px solid @blue;
+}
